@@ -1,0 +1,15 @@
+{
+  "template_id": "santander1",
+  "name": "Santander 1",
+  "version": 1,
+  "match_hints": {
+    "legal_footer_keywords": [
+      "Banco Santander Argentina S.A.",
+      "CUIT 30-50000845-4"
+    ],
+    "table_header_keywords": [
+      "Fecha Comprobante Movimiento Débito Crédito Saldo en cuenta"
+    ]
+  }
+}
+

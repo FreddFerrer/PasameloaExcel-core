@@ -1,0 +1,15 @@
+﻿{
+  "template_id": "nbch1",
+  "name": "NBCH1",
+  "version": 1,
+  "match_hints": {
+    "file_stem_keywords": ["CHACO", "NBCH"],
+    "first_page_keywords": ["CHACO", "COMPROBANTE", "NBCH"]
+  },
+  "description_rules": {
+    "strip_trailing_comprobante_digits": true,
+    "comprobante_digits_min": 8,
+    "comprobante_digits_max": 10,
+    "continuation_prefixes": ["CONVENIO:", "ORIGEN:"]
+  }
+}

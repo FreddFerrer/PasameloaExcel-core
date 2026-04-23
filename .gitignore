@@ -1,0 +1,35 @@
+.venv/
+.tmp/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+
+.agents/
+
+# Env files (keep only public template)
+.env
+.env.*
+!.env.example
+
+# Local/editor artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Potential credentials/key material
+*.pem
+*.key
+*.p12
+*.pfx
+
+app/logs/learning/*.jsonl
+app/logs/app/*.log
+app/logs/support/*.jsonl
+tests/.test_tmp/
+tests/output/*.xlsx
+pytest-cache-files-*
+.runtime/*
+!.runtime/tmp/
+!.runtime/tmp/.gitkeep

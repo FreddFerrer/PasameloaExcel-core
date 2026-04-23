@@ -1,0 +1,13 @@
+{
+  "template_id": "nacion1",
+  "name": "Nacion1",
+  "version": 1,
+  "match_hints": {
+    "first_page_keywords": [
+      "BANCO DE LA NACION ARGENTINA",
+      "CUIT 30-50001091-2 IVA RESPONSABLE INSCRIPTO",
+      "FECHA MOVIMIENTOS COMPROB. DEBITOS CREDITOS SALDO"
+    ]
+  }
+}
+

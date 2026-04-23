@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pasameloaexcel-backend"
+version = "0.1.0"
+description = "Backend FastAPI para extraer movimientos desde PDF y exportar Excel."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.135.3",
+  "uvicorn[standard]>=0.44.0",
+  "python-multipart>=0.0.26",
+  "pydantic-settings>=2.13.1",
+  "openpyxl>=3.1.5",
+  "pdfplumber>=0.11.9",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=9.0.0",
+  "httpx>=0.28.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"

@@ -1,0 +1,16 @@
+{
+  "template_id": "credicoop2",
+  "name": "Credicoop 2",
+  "version": 1,
+  "match_hints": {
+    "footer_keywords": [
+      "Banco Credicoop Cooperativo Limitado",
+      "cct@bancocredicoop.coop",
+      "Credicoop Responde: 0810-888-4500"
+    ],
+    "table_header_keywords": [
+      "FECHA COMBTE DESCRIPCION DEBITO CREDITO SALDO"
+    ]
+  }
+}
+

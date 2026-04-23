@@ -1,0 +1,14 @@
+.git
+.venv
+.tmp
+.pytest_cache
+.env
+.env.local
+__pycache__
+*.pyc
+tests
+scripts
+.agents
+app/logs/app/*.log
+app/logs/learning/*.jsonl
+app/logs/support/*.jsonl

@@ -1,0 +1,13 @@
+{
+  "template_id": "formosa1",
+  "name": "Formosa1",
+  "version": 1,
+  "match_hints": {
+    "first_page_keywords": [
+      "BANCO DE FORMOSA S.A.",
+      "FECHA CONCEPTO REFERENCIA CHEQUE DEBITOS CREDITOS SALDO",
+      "DETALLE POR PRODUCTO"
+    ]
+  }
+}
+

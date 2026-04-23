@@ -1,0 +1,16 @@
+﻿{
+  "template_id": "credicoop1",
+  "name": "Credicoop1",
+  "version": 1,
+  "match_hints": {
+    "first_page_keywords": [
+      "FECHA CONCEPTO NRO.CPBTE. DEBITO CREDITO SALDO COD.",
+      "BANCAINTERNET.BANCOCREDICOOP.COOP"
+    ]
+  },
+  "description_rules": {
+    "line_regex": "^\\s*(?P<fecha>\\d{2}/\\d{2}/\\d{4})\\s+(?P<concepto>.+?)\\s+(?P<cpbte>\\d+)\\s+(?P<debito>-?\\d[\\d.,]*)\\s+(?P<credito>-?\\d[\\d.,]*)\\s+(?P<saldo>-?\\d[\\d.,]*)\\s+(?P<cod>[A-Z0-9]+)\\s*$",
+    "continuation_static_tokens": ["CUOTA"],
+    "skip_prefixes": ["HTTPS://", "FECHA CONCEPTO", "SALDOS Y MOVIMIENTOS", "ADHERENTE:", "OPERADOR:", "NRO. DE CUENTA", "SALDO DISPONIBLE", "SALDO CONTABLE"]
+  }
+}

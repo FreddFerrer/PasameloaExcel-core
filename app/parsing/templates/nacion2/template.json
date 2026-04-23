@@ -1,0 +1,12 @@
+{
+  "template_id": "nacion2",
+  "name": "Nacion2",
+  "version": 1,
+  "match_hints": {
+    "first_page_keywords": [
+      "ULTIMOS MOVIMIENTOS",
+      "FECHA COMPROBANTE CONCEPTO IMPORTE SALDO"
+    ]
+  }
+}
+

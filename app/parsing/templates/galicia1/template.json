@@ -1,0 +1,23 @@
+﻿{
+  "template_id": "galicia1",
+  "name": "Galicia1",
+  "version": 1,
+  "match_hints": {
+    "file_stem_keywords": ["GALICIA"],
+    "first_page_keywords": [
+      "FECHA DESCRIPCION ORIGEN CREDITO DEBITO SALDO",
+      "RESUMEN DE CUENTA CORRIENTE EN PESOS"
+    ]
+  },
+  "description_rules": {
+    "strip_trailing_code_pattern": "\\s+[0-9]{2}[A-Z0-9]{2,}$",
+    "strip_trailing_comprobante_digits": true,
+    "comprobante_digits_min": 8,
+    "comprobante_digits_max": 10,
+    "continuation_prefixes": ["ORIGEN:"],
+    "continuation_static_tokens": ["VARIOS", "CUOTA"]
+  },
+  "amount_rules": {
+    "column_order": "credito_debito_saldo"
+  }
+}
